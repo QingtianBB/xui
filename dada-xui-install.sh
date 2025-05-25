@@ -83,7 +83,7 @@ install_base() {
 config_after_install() {
     # 自动设置固定账号密码和端口
     local config_account="qingtian"
-    local config_password="qingtian888"
+    local config_password="qingtian88"
     local config_port="10000"
     
     echo -e "${yellow}自动设置面板登录信息...${plain}"
